@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mwarnsley/Amazon-Clone/issues"
   },
-  "homepage": "https://github.com/mwarnsley/Amazon-Clone#readme"
+  "homepage": "https://github.com/mwarnsley/Amazon-Clone#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
