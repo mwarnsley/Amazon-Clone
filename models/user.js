@@ -49,7 +49,7 @@ UserSchema.pre('save', function(next){
     });
 });
 
-
-
-
 //compare password in the database with the one the user types in
+UserSchema.methods.comparePassword = function(password){
+    return bcrypt.compareSync(password, this.password)
+};
